@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    tools:context="cn.edu.gdmec.android.boxuegu.activity.FindPswActivity">
+
+    <include layout="@layout/main_title_bar"></include>
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:text="您的用户名是？"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="请输入您的用户名"
+        android:singleLine="true"
+        android:paddingLeft="8dp"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:visibility="gone"
+        android:background="@drawable/find_psw_icon"
+        android:id="@+id/et_user_name"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="15dp"
+        android:text="您的姓名是？"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="请输入您要验证的姓名"
+        android:singleLine="true"
+        android:paddingLeft="8dp"
+        android:textColor="#000000"
+        android:textColorHint="#a3a3a3"
+        android:background="@drawable/find_psw_icon"
+        android:id="@+id/et_validate_name"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:text="12346"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_reset_psw"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_validate"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="验证"
+        android:background="@drawable/register_selector"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" />
+</LinearLayout>
