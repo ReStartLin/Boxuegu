@@ -1,0 +1,142 @@
+[
+ {
+  "chapterId": 1,
+  "videoId": "1",
+  "title": "第1章 Android 基础入门",
+  "secondTitle": "Android系统简介",
+  "videoPath": "video11.mp4"
+ },
+ {
+  "chapterId": 1,
+  "videoId": "2",
+  "title": "第1章 Android 基础入门",
+  "secondTitle": "笔记软件",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 2,
+  "videoId": "1",
+  "title": "第2章 Android UI开发",
+  "secondTitle": "帧布局",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 2,
+  "videoId": "2",
+  "title": "第2章 Android UI开发",
+  "secondTitle": "表格布局",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 3,
+  "videoId": "1",
+  "title": "第3章 Activity",
+  "secondTitle": "Activity的启动模式",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 3,
+  "videoId": "2",
+  "title": "第3章 Activity",
+  "secondTitle": "Activity中的数据传递",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 4,
+  "videoId": "1",
+  "title": "第4章 数据存储",
+  "secondTitle": "文件存储",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 4,
+  "videoId": "2",
+  "title": "第4章 数据存储",
+  "secondTitle": "XML序列化与SharedPreferences",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 5,
+  "videoId": "1",
+  "title": "第5章 SQLite 数据库",
+  "secondTitle": "SQLite数据库的使用",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 5,
+  "videoId": "2",
+  "title": "第5章 SQLite 数据库",
+  "secondTitle": "ListView控件的使用",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 6,
+  "videoId": "1",
+  "title": "第6章 广播接收者",
+  "secondTitle": "内容提供者简介",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 6,
+  "videoId": "2",
+  "title": "第6章 广播接收者",
+  "secondTitle": "内容提供者的访问",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 7,
+  "videoId": "1",
+  "title": "第7章 服务",
+  "secondTitle": "广播接收者与自定义广播",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 7,
+  "videoId": "2",
+  "title": "第7章 服务",
+  "secondTitle": "广播类型与常用的广播接收者",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 8,
+  "videoId": "1",
+  "title": "第8章 内容提供者",
+  "secondTitle": "服务的创建与生命周期",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 8,
+  "videoId": "2",
+  "title": "第8章 内容提供者",
+  "secondTitle": "服务的启动方式",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 9,
+  "videoId": "1",
+  "title": "第9章 网络编程",
+  "secondTitle": "访问网络",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 9,
+  "videoId": "2",
+  "title": "第9章 网络编程",
+  "secondTitle": "数据的提交方式",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 10,
+  "videoId": "1",
+  "title": "第10章 高级编程",
+  "secondTitle": "图形图像处理与动画",
+  "videoPath": ""
+ },
+ {
+  "chapterId": 10,
+  "videoId": "2",
+  "title": "第10章 高级编程",
+  "secondTitle": "多媒体、与Fragment",
+  "videoPath": ""
+ }
+]

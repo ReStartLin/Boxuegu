@@ -8,6 +8,10 @@ import android.widget.ImageView;
 import org.xmlpull.v1.XmlPullParser;
 
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.edu.gdmec.android.boxuegu.bean.ExercisesBean;
 
 /**
  * Created by Administrator on 2018/3/7.
