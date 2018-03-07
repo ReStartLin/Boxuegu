@@ -15,9 +15,6 @@ import cn.edu.gdmec.android.boxuegu.R;
 import cn.edu.gdmec.android.boxuegu.activity.VideoPlayActivity;
 import cn.edu.gdmec.android.boxuegu.bean.VideoBean;
 
-/**
- * Created by student on 17/12/28.
- */
 
 public class PlayHistoryAdapter extends BaseAdapter {
 

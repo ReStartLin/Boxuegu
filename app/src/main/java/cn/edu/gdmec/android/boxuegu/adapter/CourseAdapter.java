@@ -18,9 +18,6 @@ import cn.edu.gdmec.android.boxuegu.activity.VideoListActivity;
 import cn.edu.gdmec.android.boxuegu.bean.CourseBean;
 import cn.edu.gdmec.android.boxuegu.utils.AnalysisUtils;
 
-/**
- * Created by student on 17/12/27.
- */
 
 public class CourseAdapter extends BaseAdapter{
 

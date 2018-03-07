@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:id="@+id/activity_video_list"
+    tools:context="cn.edu.gdmec.android.boxuegu.activity.VideoListActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/default_video_list_icon"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@drawable/video_list_intro_icon"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/tv_intro"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_centerVertical="true"
+                android:background="#30B4FF"
+                android:gravity="center"
+                android:text="简 介"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="48dp"
+            android:background="#C3C3C3"/>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@drawable/video_list_intro_icon"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/tv_video"
+                android:layout_width="fill_parent"
+                android:layout_height="46dp"
+                android:layout_centerVertical="true"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="视 频"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_video_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:divider="#E4E4E4"
+            android:dividerHeight="1dp"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+        </ListView>
+
+        <ScrollView
+            android:id="@+id/sv_chapter_intro"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:lineSpacingMultiplier="1.5"
+                    android:id="@+id/tv_chapter_intro"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="10dp"
+                    android:text="安卓简介"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
