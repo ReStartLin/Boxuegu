@@ -1,5 +1,6 @@
 package cn.edu.gdmec.android.boxuegu.view;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +16,7 @@ import android.widget.Toast;
 import cn.edu.gdmec.android.boxuegu.R;
 import cn.edu.gdmec.android.boxuegu.activity.LoginActivity;
 import cn.edu.gdmec.android.boxuegu.activity.SettingActivity;
+import cn.edu.gdmec.android.boxuegu.activity.UserInfoActivity;
 import cn.edu.gdmec.android.boxuegu.utils.AnalysisUtils;
 
 /**
@@ -108,7 +110,7 @@ public class MyInfoView {
 
 
     private boolean readLoginStatus(){
-        SharedPreferences sp =mContext.getSharedPreferences("loginInfo",Context.MODE_APPEND);
+        @SuppressLint("WrongConstant") SharedPreferences sp =mContext.getSharedPreferences("loginInfo",Context.MODE_APPEND);
         boolean isLogin = sp.getBoolean("isLogin",false);
         return isLogin;
     }
