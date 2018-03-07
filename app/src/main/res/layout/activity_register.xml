@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_register"
+    android:background="@drawable/register_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.edu.gdmec.android.boxuegu.activity.RegisterActivity">
+
+    <include layout="@layout/main_title_bar"></include>
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/default_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <EditText
+        android:singleLine="true"
+        android:id="@+id/et_user_name"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/register_user_name_bg"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:drawableLeft="@drawable/user_name_icon"
+        android:paddingLeft="8dp"
+        android:drawablePadding="10dp"
+        android:hint="请输入用户名"
+        android:gravity="center_vertical"
+        android:textColorHint="#a3a3a3"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/et_psw"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/register_psw_bg"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:drawableLeft="@drawable/user_name_icon"
+        android:paddingLeft="8dp"
+        android:drawablePadding="10dp"
+        android:hint="请输入密码"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:textColorHint="#a3a3a3"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/et_psw_again"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/register_psw_again_bg"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:drawableLeft="@drawable/user_name_icon"
+        android:paddingLeft="8dp"
+        android:drawablePadding="10dp"
+        android:hint="请再次输入密码"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:textColorHint="#a3a3a3"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+
+    <Button
+        android:text="注 册"
+        android:id="@+id/btn_register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/register_selector"/>
+</LinearLayout>
